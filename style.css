@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: paleturquoise;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 150px 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+header a:hover{
+    background-color: #fff;
+    color: aquamarine;
+    box-shadow: 2px 2px 3px lightblue;
+}
+
+.btn1{
+    transition: 0.5s;
+}
+
+.btn1:hover{
+    animation: botao1 .5s linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    color: aliceblue;
+}
+
+@keyframes botao1 {
+    0%  {transform: rotate(0);}
+    50%  {transform: rotateY(180deg);}
+    100%  {transform: rotate(0);}
+}
+
+.btn2{
+    transition: 0.5s;
+}
+
+.btn2:hover{
+    animation: botao2 .5s linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    color: blueviolet;
+}
+
+@keyframes botao2 {
+    0%  {transform: rotate(0);}
+    50%  {transform: rotateX(180deg);}
+    100%  {transform: rotate(0);}
+}
+
+.btn3{
+    transition: 0.5s;
+}
+
+.btn3:hover{
+    animation: botao3 .5s linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    color: lightcyan;
+}
+
+@keyframes botao3 {
+    0%  {transform: rotate(0);}
+    15%  {transform: rotate(20deg);}
+    30%  {transform: rotate(0);}
+    45%  {transform: rotate(-20deg);}
+    60%  {transform: rotate(0);}
+    75%  {transform: rotate(20deg);}
+    90%  {transform: rotate(0);}
+    100%  {transform: rotateX(-20deg);}
+   
+}
+
+.btn4{
+    transition: 0.5s;
+}
+
+.btn4:hover{
+    animation: botao4 .5s linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    color: powderblue;
+}
+
+@keyframes botao4 {
+    0%  {transform: rotate(0);}
+    50%  {transform: rotateY(180deg);}
+    100%  {transform: rotate(0);}
+}
+
+.btn5{
+    transition: 0.5s;
+}
+
+.btn5:hover{
+    animation: botao5 .5s linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    color: papayawhip;
+}
+
+@keyframes botao5 {
+    0%  {transform: rotate(0);}
+    50%  {transform: rotateX(180deg);}
+    100%  {transform: rotate(0);}
+}
+
+.btn6{
+    transition: 0.5s;
+}
+
+.btn6:hover{
+    animation: botao6 .5s linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    color: lavenderblush;
+}
+
+@keyframes botao6 {
+    0%  {transform: rotate(0);}
+    15%  {transform: rotate(20deg);}
+    30%  {transform: rotate(0);}
+    45%  {transform: rotate(-20deg);}
+    60%  {transform: rotate(0);}
+    75%  {transform: rotate(20deg);}
+    90%  {transform: rotate(0);}
+    100%  {transform: rotateX(-20deg);}
+   
+}
+
+
+
+
+
+
